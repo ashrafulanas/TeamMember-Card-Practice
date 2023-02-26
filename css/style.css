@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+.hoverSection {
+  margin: 60px 0px;
+}
+
+/* First Part */
+.teamPart {
+  overflow: hidden;
+}
+.imageTeam {
+  position: relative;
+}
+.imageTeam img {
+  width: 100%;
+  height: auto;
+}
+/* .imageTeam::before {
+  content: "";
+  width: 0;
+  height: 100%;
+  background: rgba(201, 31, 31, 0.59);
+  position: absolute;
+  top: 0;
+  left: -120px;
+  bottom: 0;
+
+  transform: skewX(-36deg);
+  transition: all 0.5s ease 0s;
+}
+.imageTeam:hover::before {
+  width: 200%;
+} */
+.imageTeam .content {
+  position: absolute;
+  padding: 20px 0 30px;
+  top: 80%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out;
+}
+.imageTeam:hover .content {
+  opacity: 1;
+}
+
+.imageTeam .content h3 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.imageTeam .content h4 {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+.content {
+  width: 100%;
+
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+}
+.content ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.content ul li {
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+}
+.content ul li .svg-inline--fa {
+  transition: all 0.3s ease-in-out;
+}
+.content ul li:hover {
+  background-color: white;
+}
+.content ul li:hover .svg-inline--fa {
+  color: black;
+}
+
+/* First Part end */
+
+/* second part */
+
+.teammemberContent {
+  margin: 20px 0;
+}
+.teammemberContent ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.teammemberContent li {
+}
+.teammemberContent li {
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+.teamimage img {
+  width: 100%;
+}
+.teamCard {
+  padding: 10px;
+
+  transition: all 0.5s;
+}
+.teamCard:hover {
+  box-shadow: 0px 0px 30px 2px #aaaaaa;
+  -webkit-box-shadow: 0px 0px 30px 2px #aaaaaa;
+  -o-box-shadow: 0px 0px 30px 2px #aaaaaa;
+  -ms-box-shadow: 0px 0px 30px 2px #aaaaaa;
+}
+্ img {
+  max-width: 100%;
+}
+
+/* second part end*/

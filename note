@@ -1,0 +1,22 @@
+<script src="https://cdn.jsdelivr.net/npm/typed.js"></script>
+
+<div class="autotyping">I'm a<span class="typing_text"></span></div>
+
+<script>
+var typed=new typed("typing_text",{
+    strings:["youtuber","Developer"],
+    typeSpeed: 100,
+    backSpeed: 100,
+    loop: true,
+    cursorChar:'|',
+});
+</script>
+<style>
+.autotyping{
+color:red;
+font-size:32px;}
+.autotyping>span{
+    color: green;
+    font-size: 32px;
+}
+</style>
