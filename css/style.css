@@ -127,6 +127,16 @@ a:visited {
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+}
+.teammemberContent ul li .svg-inline--fa {
+  transition: all 0.3s ease-in-out;
+}
+.teammemberContent ul li:hover {
+  background-color: white;
+}
+.teammemberContent ul li:hover .svg-inline--fa {
+  color: black;
 }
 .teamimage img {
   width: 100%;
